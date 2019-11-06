@@ -2,7 +2,7 @@
 
 ## Installation
 
-Simply copy the `imgzoom.js` file on your website, include it in your page and set `<body onload='imgzoom()'`.
+Simply copy the `imgzoom.js` file on your website, include it in your page and set `<body onload='imgzoom()'>`.
 
 An example is available in `test.html`.
 
