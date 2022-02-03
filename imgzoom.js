@@ -19,7 +19,8 @@ function zoom(url) {
   overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
   overlay.style.zIndex = '2';
   overlay.style.margin = 'auto';
-  overlay.style.textAlign = 'center';
+  overlay.style.display = 'flex';
+  overlay.style.alignContent = 'center';
   overlay.onclick = function() { removeOverlays() }
 
   var image = document.createElement('img');
